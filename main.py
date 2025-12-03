@@ -1,5 +1,5 @@
 """
-Pixel Traivo YouTube Downloader
+SnapVid
 AutoSubs-inspired clean UI with all features
 """
 
@@ -87,7 +87,7 @@ class ConsoleLogger:
 class App:
     def __init__(self, root):
         self.root = root
-        self.root.title("Pixel Traivo - YouTube Downloader")
+        self.root.title("SnapVid")
         
         # Fixed window size - NO RESIZE
         self.window_width = 1100
@@ -204,7 +204,7 @@ class App:
         tk.Label(header, text="▶", font=("Arial", 40, "bold"), 
                 bg=self.bg, fg=self.accent).pack()
         
-        tk.Label(header, text="Pixel Traivo YouTube Downloader", 
+        tk.Label(header, text="SnapVid", 
                 font=("SF Pro Display", 22, "bold"), bg=self.bg, 
                 fg=self.text).pack(pady=(5, 3))
         
@@ -382,7 +382,7 @@ class App:
                                                  height=12,
                                                  wrap=tk.WORD)
         self.console.pack(fill=tk.BOTH, expand=True, padx=1, pady=1)
-        self.console.insert("1.0", "● Pixel Traivo YouTube Downloader ready!\n")
+        self.console.insert("1.0", "● SnapVid ready!\n")
         self.console.insert(tk.END, "● Paste a YouTube URL and press Enter or click Download\n")
         self.console.insert(tk.END, "● Shortcuts: ⌘+V (Paste), ⌘+L (Clear), ⌘+Q (Quit)\n")
         self.console.config(state=tk.DISABLED)
@@ -417,7 +417,7 @@ class App:
         footer_right = tk.Frame(footer, bg=self.bg)
         footer_right.pack(side=tk.RIGHT)
         
-        tk.Label(footer_right, text="Made with ❤️ by Pixel Traivo",
+        tk.Label(footer_right, text="Developed by Praveen Singh",
                 font=("SF Pro Display", 9),
                 bg=self.bg, fg=self.text_secondary).pack()
     
