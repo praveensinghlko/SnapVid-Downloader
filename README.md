@@ -83,3 +83,4 @@ chmod +x build.sh
 ./build.sh
 
 </div>
+./build.sh
