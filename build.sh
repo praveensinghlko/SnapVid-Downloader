@@ -3,7 +3,7 @@
 
 set -e  # Exit on error
 
-echo "🚀 PixelTraivo YouTube Downloader - Build Starting..."
+echo "🚀 SnapVid - Build Starting..."
 echo ""
 
 # ========== CLEANUP ==========
