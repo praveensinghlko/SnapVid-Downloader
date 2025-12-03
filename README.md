@@ -1,16 +1,18 @@
+
 <div align="center">
 
-# ▶️ Pixel Traivo YouTube Downloader
+# 🎬 SnapVid - YouTube Downloader
 
 **Professional YouTube video downloader for macOS with beautiful UI**
 
 [![macOS](https://img.shields.io/badge/macOS-10.13+-blue.svg)](https://www.apple.com/macos)
 [![Python](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/praveensinghlko/SnapVid-Downloader)](https://github.com/praveensinghlko/SnapVid-Downloader/releases/latest)
 
 ![Screenshot](assets/screenshot-1.png)
 
-[📥 Download Latest Release](https://github.com/pixeltraivo/SnapVid/releases/latest) • [🐛 Report Bug](https://github.com/pixeltraivo/SnapVid/issues)
+[📥 Download Latest Release](https://github.com/praveensinghlko/SnapVid-Downloader/releases/latest) • [🐛 Report Bug](https://github.com/praveensinghlko/SnapVid-Downloader/issues)
 
 </div>
 
@@ -33,7 +35,7 @@
 
 ### For Users
 
-1. **Download** the latest `.dmg` file from [Releases](https://github.com/pixeltraivo/SnapVid/releases/latest)
+1. **Download** the latest `.dmg` file from [Releases](https://github.com/praveensinghlko/SnapVid-Downloader/releases/latest)
 2. **Open** the downloaded DMG file
 3. **Drag** the app to your Applications folder
 4. **Launch** from Applications
@@ -73,46 +75,11 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/pixeltraivo/SnapVid.git
-cd SnapVid
+git clone https://github.com/praveensinghlko/SnapVid-Downloader.git
+cd SnapVid-Downloader
 
 # Build
 chmod +x build.sh
 ./build.sh
-```
-
----
-
-## 🔧 Troubleshooting
-
-**"App can't be opened" error:**
-- Right-click the app → Open → Click Open again
-
-**Or use Terminal:**
-```bash
-xattr -cr "/Applications/SnapVid.app"
-```
-
----
-
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) file
-
----
-
-## 🙏 Acknowledgments
-
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - YouTube downloader
-- [auto-subs](https://github.com/tmoroney/auto-subs) - UI inspiration
-- [FFmpeg](https://ffmpeg.org/) - Media processing
-
----
-
-<div align="center">
-
-**Made with ❤️ by Pixel Traivo**
-
-⭐ Star this repo if you found it helpful!
 
 </div>
